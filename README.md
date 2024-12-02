@@ -21,16 +21,28 @@ This project is a Go-based CLI application designed to fetch address data from t
 ---
 
 ## Folder Structure
+``` bash
 project/
-    ├── cmd/
-    │   └── main.go     
-    ├── internal/
-    │   ├── apiclient/       
-    │   │   └── client.go
-    ├── go.mod               
-    └── go.sum             
+├── cmd/
+│   └── main.go     
+├── internal/
+│   ├── apiclient/       
+│   │   └── client.go
+├── go.mod               
+└── go.sum             
+```
 
 
+### Explanation of Folders
+
+- **`cmd/`**  
+  Contains the entry point for the application (`main.go`).
+
+- **`internal/apiclient/`**  
+  Includes logic for making HTTP requests, managing concurrency, and handling timeout limits.
+
+- **`go.mod` and `go.sum`**  
+  Define and manage the project's dependencies.
 
 ---
 
