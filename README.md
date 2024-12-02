@@ -22,13 +22,13 @@ This project is a Go-based CLI application designed to fetch address data from t
 
 ## Folder Structure
 project/
-├── cmd/
-│   └── main.go     
-├── internal/
-│   ├── apiclient/       
-│   │   └── client.go
-├── go.mod               
-└── go.sum             
+    ├── cmd/
+    │   └── main.go     
+    ├── internal/
+    │   ├── apiclient/       
+    │   │   └── client.go
+    ├── go.mod               
+    └── go.sum             
 
 
 
